@@ -96,7 +96,7 @@ StButton.notification-applet-padding,
 .overview-empty-placeholder
 {padding: 8px;}
 
-.popup-menu-item{padding: 4px 16px;}
+.popup-menu-item{padding: 7px 16px;}
 
 .modal-dialog { padding: 20px; }
 
@@ -133,7 +133,7 @@ StButton.notification-applet-padding,
 .sound-player StBoxLayout,
 .popup-menu-item {  spacing: 1em;}
 
-.popup-menu-content,
+.popup-menu-content{ padding: 6px 0;}
 
 .calendar-today-home-button,
 .calendar-today-home-button-enabled,
@@ -213,7 +213,7 @@ StButton:checked.radiobutton,
 .window-list-preview,
 .overview-empty-placeholder,
 .grouped-window-list-thumbnail-menu
-{background-color: #fff; /*use bg color*/}
+{background-color: #f5f7f4; /*use bg color*/}
 
 StEntry,
 StButton,
@@ -289,19 +289,10 @@ StButton:checked,
 .popup-menu #notification StButton.notification-icon-button:checked
 { background-color: rgba(0,0,0, 0.2); box-shadow: none;}
 
-.window-close,
-.window-close:active,
-.window-close:checked,
-.workspace-close-button,
-.workspace-close-button:active,
-.workspace-close-button:checked{background-color: #444; box-shadow: none;}
-.workspace-close-button:hover,
-.window-close:hover{background-color: #444; box-shadow: inset 0 0 0 9999px rgba(255,/**/255,255, 0.2);}
-
 .window-close:active,
 .window-close:checked,
 .workspace-close-button:active,
-.workspace-close-button:checked{background-color: #444; box-shadow: inset 0 0 0 9999px rgba(255,/**/255,255, 0.3);}
+.workspace-close-button:checked{ box-shadow: inset 0 0 0 9999px rgba(255,/**/255,255, 0.3);}
 
 .window-list-item-box,
 .grouped-window-list-item-box:active { background-color: rgba(0,0/**/,0, 0.01);}
@@ -391,16 +382,16 @@ StEntry,
 
 /* Border Radius */
 
-.popup-submenu-menu-item:open{ border-radius: 6px 6px 0 0 ; }
+.popup-submenu-menu-item:open,
 
 .popup-sub-menu,
-.popup-sub-menu .popup-menu-item:last-child{ border-radius: 0 0 6px 6px; }
+.popup-sub-menu .popup-menu-item:last-child,
 
 .popup-sub-menu .popup-menu-item,
-.expo-background
+.expo-background,
+.popup-menu-item
 { border-radius: 0px; }
 
-.popup-menu-item,
 StEntry,
 StButton,
 #Tooltip,
@@ -422,7 +413,7 @@ StButton,
 .calendar-event-button,
 .overview-empty-placeholder,
 .grouped-window-list-thumbnail-menu
-{border-radius: 6px;}
+{border-radius: 8px;}
 
 StScrollBar StButton,StScrollBar StBin#trough{border-radius: 9999px; border-color: transparent; background-clip: border-box;}
 

@@ -34,7 +34,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="990"
+     inkscape:window-height="988"
      id="namedview27"
      showgrid="false"
      inkscape:zoom="14.75"
@@ -89,6 +89,24 @@
          id="feGaussianBlur10" />
     </filter>
   </defs>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.602625"
+     id="rect1-3"
+     width="28"
+     height="28"
+     x="2"
+     y="2"
+     rx="14"
+     ry="14" />
+  <rect
+     style="fill:#000000;fill-opacity:1;stroke-width:0.516535"
+     id="rect1"
+     width="24"
+     height="24"
+     x="4"
+     y="4"
+     rx="12"
+     ry="12" />
   <path
      id="rect844"
      style="fill:#ffffff;fill-opacity:1;stroke-width:1.04521;opacity:1;stroke:none;stroke-opacity:1"

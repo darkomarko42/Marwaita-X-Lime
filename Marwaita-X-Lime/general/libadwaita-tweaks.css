@@ -4,6 +4,6 @@
 
 /* add a bg color to notebook headers */
 notebook > header {
-  background-color: @headerbar_bg_color;
+  background-color: transparent;
   border-color: mix(currentColor,@window_bg_color,0.85);
 }
